@@ -11,10 +11,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by danny on 6/17/14.
@@ -86,7 +83,8 @@ public class SuppressionScrap {
                 }
             }
 
-            System.out.println("=== Suppression stats ===");
+            Date date = new Date();
+            System.out.println("==="+date+" Suppression stats ===");
             System.out.println();
 
 
